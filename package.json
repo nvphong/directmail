@@ -1,6 +1,6 @@
 {
   "name": "directmail",
-  "version": "0.1.6",
+  "version": "0.1.6-a",
   "description": "Sendmail replacement, sends mail directly to recipients SMTP server",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "Nodemailer",
     "email"
   ],
-  "author": "Andris Reinman",
+  "author": "Andris Reinman, forked by Nguyen Van Phong",
   "license": "MIT",
   "dependencies": {
     "simplesmtp": "~0.3.15"
@@ -20,5 +20,5 @@
   "devDependencies": {
     "nodeunit": "~0.8.2"
   },
-  "repository": "git://github.com/andris9/directmail.git"
+  "repository": "git://github.com/nvphong/directmail.git"
 }
